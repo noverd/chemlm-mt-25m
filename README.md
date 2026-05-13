@@ -1,7 +1,5 @@
 # ChemLLM-MT (Version 1)
 
-[Russian Version Below]
-
 **ChemLLM-MT** is a lightweight Transformer-based (Seq2Seq) model designed to predict organic chemical reactions and retrosynthetic pathways. It was trained from scratch using the **Intel Arc B580 (XPU)** hardware, proving the viability of non-NVIDIA accelerators for deep learning tasks.
 
 ## Key Features
