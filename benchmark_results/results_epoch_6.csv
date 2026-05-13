@@ -1,0 +1,29 @@
+epoch,category,test_name,mode,valid,tanimoto,exact_match,text_similarity,prediction,target
+6,RETROSYNTHESIS,Paracetamol Retro,Strict,False,0.0,False,0.5,c1cccc1O,CC(=O)O.Nc1ccc(O)cc1
+6,RETROSYNTHESIS,Paracetamol Retro,Improved,False,0.0,False,0.37037037037037035,c1(C)cO,CC(=O)O.Nc1ccc(O)cc1
+6,RETROSYNTHESIS,Aspirin Retro,Strict,False,0.0,False,0.5641025641025641,OCc1c(O)ccc(O)=O,CC(=O)O.Oc1ccccc1C(=O)O
+6,RETROSYNTHESIS,Aspirin Retro,Improved,False,0.0,False,0.34285714285714286,c1(O)cc(O)=O,CC(=O)O.Oc1ccccc1C(=O)O
+6,RETROSYNTHESIS,Benzocaine Retro,Strict,False,0.0,False,0.42424242424242425,c1(cccc1)O,CCOC(=O)Cl.Nc1ccc(O)cc1
+6,RETROSYNTHESIS,Benzocaine Retro,Improved,False,0.0,False,0.3333333333333333,c1(C)cO,CCOC(=O)Cl.Nc1ccc(O)cc1
+6,RETROSYNTHESIS,Complex Boc Retro,Strict,False,0.0,False,0.35294117647058826,c1(C)ccc1CNC(C)ccc(F)c1,CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.NCCc1ccc(N)cc1F
+6,RETROSYNTHESIS,Complex Boc Retro,Improved,False,0.0,False,0.27586206896551724,c1(C)cccc1CNC,CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.NCCc1ccc(N)cc1F
+6,RETROSYNTHESIS,Ibuprofen Retro,Strict,False,0.0,False,0.5957446808510638,c1(C(C)c1ccc(O)C(C)C,CC(C)Cc1ccccc1.CC(Cl)C(=O)O
+6,RETROSYNTHESIS,Ibuprofen Retro,Improved,False,0.0,False,0.6415094339622641,c1(C)cc1OC(C)c1cccc(C(C)C),CC(C)Cc1ccccc1.CC(Cl)C(=O)O
+6,RETROSYNTHESIS,Salicylic Acid Retro,Strict,False,0.0,False,0.5,c1(O)ccc(O)cO,Oc1ccccc1.O=C=O
+6,RETROSYNTHESIS,Salicylic Acid Retro,Improved,False,0.0,False,0.4444444444444444,c1(O)ccc(O)c,Oc1ccccc1.O=C=O
+6,SYNTHESIS,Esterification (Me),Strict,True,0.21428571428571427,False,0.6956521739130435,CCOC(=O)OCCOCOC,CC(=O)OC
+6,SYNTHESIS,Esterification (Me),Improved,True,0.28,False,0.7272727272727273,COC(=O)OCCOCOC,CC(=O)OC
+6,SYNTHESIS,Esterification (Et),Strict,True,0.19444444444444445,False,0.46153846153846156,COCCOC(=O)CCOCCOC(=O)OCCCOCCOC,CC(=O)OCC
+6,SYNTHESIS,Esterification (Et),Improved,True,0.2,False,0.5454545454545454,COC(=O)CCCOCCOC(=O)OCCOC,CC(=O)OCC
+6,SYNTHESIS,Boc-protection (Me),Strict,False,0.0,False,0.47368421052631576,CC(O)CN(C(=O)OC(C)(C)C,CC(C)(C)OC(=O)NC
+6,SYNTHESIS,Boc-protection (Me),Improved,False,0.0,False,0.47368421052631576,CC(O)CN(C(=O)OC(C)(C)C,CC(C)(C)OC(=O)NC
+6,SYNTHESIS,Aspirin Synthesis,Strict,False,0.0,False,0.5454545454545454,C(OC)c1cc(OC(=O)ccc(OC)OC(=O)cccOC,CC(=O)Oc1ccccc1C(=O)O
+6,SYNTHESIS,Aspirin Synthesis,Improved,False,0.0,False,0.5555555555555556,C(OC)c1cc(OC(=O)ccc(OC)OC(=O)cccO,CC(=O)Oc1ccccc1C(=O)O
+6,SYNTHESIS,Benzene Nitration,Strict,False,0.0,False,0.5263157894736842,O=c1cccc(O)cc1cccc,O=[N+]([O-])c1ccccc1
+6,SYNTHESIS,Benzene Nitration,Improved,False,0.0,False,0.9230769230769231,O=[N+]([O-])c1ccccO,O=[N+]([O-])c1ccccc1
+6,SYNTHESIS,Nitro Reduction,Strict,False,0.0,False,0.6666666666666666,Brc1ccccc1cccc1,Nc1ccccc1
+6,SYNTHESIS,Nitro Reduction,Improved,True,0.2608695652173913,False,0.48484848484848486,O=c1cccc(-c1ccccc1)cccc1,Nc1ccccc1
+6,SYNTHESIS,Amide Formation,Strict,True,0.13157894736842105,False,0.5384615384615384,CCCCCN.C=CCCNCC=O,CCNC(C)=O
+6,SYNTHESIS,Amide Formation,Improved,True,0.10526315789473684,False,0.4,CCCCN.C=CCCCNCCl,CCNC(C)=O
+6,SYNTHESIS,Friedel-Crafts,Strict,False,0.0,False,0.5128205128205128,C(c1cccc-c1ccccc1.OCccccc,CC(=O)c1ccccc1
+6,SYNTHESIS,Friedel-Crafts,Improved,False,0.0,False,0.5625,C(c1cccc-c1ccccc.O,CC(=O)c1ccccc1
